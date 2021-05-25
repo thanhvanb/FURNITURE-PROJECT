@@ -71,6 +71,12 @@ footer {
                     justify-content: center;
                 }
             }
+            @include xs {
+                p {
+                right: 5px;
+                }
+            }
+    
         }
     }
 
@@ -80,5 +86,6 @@ footer {
             padding-top: 400px;
             margin-top: -300px;
         }
+        
     }
 }

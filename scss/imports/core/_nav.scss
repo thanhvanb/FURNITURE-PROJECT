@@ -36,6 +36,7 @@
         .info-right {
             display: flex;
             align-items: center;
+            justify-content: center;
             a {
                 font-family: "a-heavy";
                 font-size: 11px;
@@ -44,10 +45,15 @@
                 padding-right: 10px;
                 opacity: 0.5;
                 transition: $t;
-                img {
-                    width: 23px;
-                    margin-left: 10px;
+                i {
+                    display: flex;
+                    align-items: center;
+                    img {
+                        width: 15px;
+                        margin-left: 10px;
+                    }
                 }
+               
                 &:hover {
                     opacity: 1;
                     transition: $t;
@@ -64,7 +70,7 @@
             flex-direction: column;
             padding-right: 100px;
             .closebtn {
-                width: 30px;
+                width: 38px;
                 padding-top: 20px;
                 cursor: pointer;
                 opacity: 0.5;

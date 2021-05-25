@@ -57,8 +57,8 @@
                 width: calc(100% / 2 + 45px);
             }
             span {
-                display: inline-block;
-                margin: 0px 10px;
+                //display: inline-block;
+                margin: 0px 20px;
             }
         }
         &__articles {
@@ -181,6 +181,27 @@
     @include xs {
         .news {
             padding-top: 50px;
+        }
+    }
+}
+.sectionnews {
+    margin-top: -250px;
+    position: relative;
+    z-index: 10;
+    .product__row {
+        .product__intro {
+            width: 100%;
+            max-width: initial;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 30px;
+        }
+    }
+    @include xs{
+        margin-top: -142px;
+        .product__row {
+            .product__intro {
+                padding-bottom: 0px; 
+            }
         }
     }
 }

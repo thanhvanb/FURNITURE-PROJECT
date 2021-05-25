@@ -80,7 +80,7 @@ header {
     display: none;
     width: 100%;
     height: var(--heightHeader);
-    max-width: 100%;
+    min-width: 100%;
     position: fixed;
     top: 0;
     background: $blue;
@@ -217,6 +217,7 @@ header {
 }
 @include sm {
     .menu-scroll {
+        display: none;
         .container-fluid {
             ul {
                 li {
@@ -235,7 +236,7 @@ header {
         .container-fluid {
             .btnmenu {
                 width: 35px;
-                height: 25px;
+                height: 20px;
                 h2 {
                     font-size: 15px;
                 }
@@ -248,5 +249,8 @@ header {
                 }
             }
         }
+    }
+    .menu-scroll {
+        display: none;
     }
 }

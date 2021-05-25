@@ -156,9 +156,6 @@
             text-align: center;
             border: 1px solid #0000;
             transition: $t;
-            .active {
-                display: block;
-            }
             a {
                 line-height: 30px;
                 text-align: center;
@@ -166,6 +163,7 @@
                 text-decoration: none;
                 transition: $t;
                 color: black;
+                
             }
             &:hover {
                 background: #ccc;
@@ -175,7 +173,10 @@
             &:active {
                 background: #ccc;
                 pointer-events: auto;
+                border: 1px solid #0000;
+                pointer-events: auto;
             }
+            
         }
     }
 }

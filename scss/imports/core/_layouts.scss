@@ -106,6 +106,9 @@ body {
     }
     @include md {
         // CSS responsive desktop
+        .mainwrapper {
+            margin-top: var(--heightHeader);
+        }
     }
     @include sm {
         // CSS responsive tablet
@@ -115,9 +118,7 @@ body {
     }
     @include xs {
         // CSS responsive mobile
-        .mainwrapper {
-            margin-top: var(--heightHeader);
-        }
+        
     }
     @include xxs {
         // CSS responsive small mobile
