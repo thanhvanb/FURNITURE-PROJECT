@@ -146,7 +146,8 @@ $(document).ready(function () {
         draggable: true,
         cellAlign: "left",
         contain: true,
-        autoPlay: false
+        autoPlay: false,
+        wrapAround: true
     });
 
     $('.control .control__btn.--prev').on('click', function () {

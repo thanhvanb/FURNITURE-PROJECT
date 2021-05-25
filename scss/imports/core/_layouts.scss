@@ -11,7 +11,7 @@
     -webkit-appearance: none;
 
     --heightHeader: 90px;
-    @include sm {
+    @include md {
         --heightHeader: 60px;
     }
 }
