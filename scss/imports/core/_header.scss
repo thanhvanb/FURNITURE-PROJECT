@@ -35,6 +35,10 @@ header {
                 padding: 0 15px;
             }
         }
+        &.--productdetail {
+            display: flex;
+            justify-content: space-between;
+        }
         a {
             height: 100%;
             text-decoration: none;
