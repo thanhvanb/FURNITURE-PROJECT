@@ -35,9 +35,24 @@ header {
                 padding: 0 15px;
             }
         }
-        &.--productdetail {
+        &.--product {
             display: flex;
+            align-items: center;
             justify-content: space-between;
+            width: 100%;
+            .menu-left {
+                display: flex;
+            }
+            .menu-right {
+                justify-items: right;
+                padding-right: 0;
+                i {
+                    img {
+                        transform: rotate(-180deg);
+                        margin-right: 10px;
+                    }
+                }
+            }
         }
         a {
             height: 100%;

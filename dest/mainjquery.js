@@ -24,7 +24,7 @@ $(document).ready(function () {
     let menuScroll;
     let offsetTopMenu;
 
-    if (!$('.productpage').hasClass('productdetail')) {
+    if (!$('.productpage').hasClass('productdetailpage')) {
         menuScroll = $('.menu-scroll');
         offsetTopMenu = $('.slider__menu').offset().top + $('.slider__menu').height();
 
